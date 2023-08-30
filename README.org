@@ -1,3 +1,39 @@
 #+TITLE: Dotfiles
+#+AUTHOR: comrade-martin
 
-* My configuration files
+* Termux
+** Setup
+:PROPERTIES:
+:header-args: shell :tangle jzhdhsj
+:END:
+hearer-args:shell :tangle build/termux/script/setup.sh
+
+#+BEGIN_SRC shell
+
+  # TODO: Fix find the right command and flags for exit on error set
+  set -xew
+
+#+END_SRC
+
+#+BEGIN_SRC shell
+
+  pkg install emacs git
+  pkg install make stow
+  termux-storage-setup
+
+#+END_SRC
+
+Fun stuff
+
+#+BEGIN_SRC shell
+
+  pkg install htop cmatrix figlet
+
+#+END_SRC
+
+#+BEGIN_SRC shell
+
+  pkg install gnupg pass
+
+#+END_SRC
+

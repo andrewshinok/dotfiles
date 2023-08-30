@@ -1,0 +1,8 @@
+[user]
+	name = Andrew Shishkin
+	email = cumulusA@yandex.ru
+	signingkey = 249156FA
+[commit]
+	sign = true
+[init]
+	defaultBranch = main
