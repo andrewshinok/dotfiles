@@ -1,0 +1,7 @@
+[user]
+	email = cumulusA@yandex.ru
+	name = Andrew Shishkin
+	signingkey = B26D1E3A249156FA
+
+[commit]
+	gpgsign = true
